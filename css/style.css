@@ -1,0 +1,88 @@
+
+
+body{
+  background-color: #54b329;
+}
+
+.container-header{
+  background-image: url("./../assets/img/farm.jpg");
+
+ background-size:cover;
+ border-radius: 25px;
+ padding: 20px;
+ height: auto;
+ width: auto;
+ box-shadow: 0px 0px 20px white;
+}
+
+.login-screen{
+  padding:10px;
+  margin: 10px;
+
+}
+
+.container-products{
+  padding: 20px;
+  margin-top:100px;
+  background-color: #47a353;
+}
+
+.product-card{
+  background-color: white;
+  padding:10px;
+  border-radius:15px;
+  margin-top:20px;
+  border: 2px solid black;
+  transition: 0.35;
+}
+.product-card:hover{
+  background-color:wheat;
+  padding:10px;
+  border-radius:15px;
+  margin-top:22px;
+  border: 2px solid black;
+ transform: 0.80;
+}
+.card-auth{
+  background-color: white;
+  height: 300px;
+  width: 250px;
+  border-radius:25px;
+  border: 2px dashed black;
+  box-shadow: 0px 0px 25px #c22f96;
+  margin-top: 20px;
+  transition: 0.35;
+}
+.card-auth:hover{
+  background-color: white;
+  height: 302px;
+  width: 252px;
+  border-radius:25px;
+  border: 2px dashed black;
+  box-shadow: 0px 0px 25px #c22f96;
+  margin-top: 20px;
+  transform: 0.80;
+}
+#title{
+      font-size: 60px;  
+}
+.basket{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.rate{
+  display: flex;
+  justify-content: flex-end;
+  color: #e61425;
+}
+.profile{
+    background-color: rgb(95, 186, 214);
+}
+.trolly{
+  height: 30px;
+  width: 30px;
+}
+.button{
+   border-radius: 20px;
+}
